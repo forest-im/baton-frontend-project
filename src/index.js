@@ -8,7 +8,7 @@ house.addEventListener("click", () => {
 
   container.appendChild(balloonContainer);
 
-  balloon.addEventListener("click", function () {
+  balloonContainer.addEventListener("click", function () {
     this.remove();
   });
 });
@@ -18,7 +18,7 @@ for (let i = 0; i < 30; i++) {
 
   container.appendChild(balloonContainer);
 
-  balloon.addEventListener("click", function () {
+  balloonContainer.addEventListener("click", function () {
     this.remove();
   });
 }
