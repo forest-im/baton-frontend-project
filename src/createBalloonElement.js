@@ -33,7 +33,6 @@ export function createBalloonElement() {
     <div class="nose"></div>
   </div>
   `;
-  const basicBalloon = `<div class="${color}-color ${size}-size ${shape}-shape"></div>`;
 
   if (shape === "bear") {
     balloon.innerHTML = bearBalloon;
@@ -64,5 +63,5 @@ export function createBalloonElement() {
     balloonContainer.appendChild(line);
   }
 
-  return { balloonContainer, balloon };
+  return balloonContainer;
 }

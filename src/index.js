@@ -4,8 +4,7 @@ const container = document.querySelector(".container");
 const house = document.querySelector(".house");
 
 house.addEventListener("click", () => {
-  const { balloonContainer, balloon } = createBalloonElement();
-
+  const balloonContainer = createBalloonElement();
   container.appendChild(balloonContainer);
 
   balloonContainer.addEventListener("click", function () {
@@ -14,7 +13,7 @@ house.addEventListener("click", () => {
 });
 
 for (let i = 0; i < 30; i++) {
-  const { balloonContainer, balloon } = createBalloonElement();
+  const balloonContainer = createBalloonElement();
 
   container.appendChild(balloonContainer);
 
