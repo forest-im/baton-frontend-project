@@ -1,0 +1,116 @@
+.cloud1 {
+  position: absolute;
+  top: 70%;
+  left: 18%;
+  bottom: 0;
+  width: 13rem;
+  height: 7rem;
+  transform: rotate(10deg);
+  filter: blur(1px);
+}
+
+.cloud2 {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  bottom: 0;
+  width: 13rem;
+  height: 7rem;
+  transform: rotate(10deg);
+}
+
+.cloud3 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  bottom: 0;
+  width: 8rem;
+  height: 4rem;
+  transform: rotate(10deg);
+  filter: blur(2px);
+}
+
+.cloud4 {
+  position: absolute;
+  top: 63%;
+  right: 33%;
+  bottom: 0;
+  width: 7rem;
+  height: 3rem;
+  transform: rotate(-10deg);
+  filter: blur(2px);
+}
+
+.cloud5 {
+  position: absolute;
+  top: 88%;
+  right: 3%;
+  bottom: 0;
+  width: 17rem;
+  height: 8rem;
+  transform: rotate(-10deg);
+}
+
+.cloud6 {
+  position: absolute;
+  top: 48%;
+  right: 3%;
+  bottom: 0;
+  width: 10rem;
+  height: 6rem;
+  transform: rotate(-10deg);
+  filter: blur(2px);
+}
+
+.cloud :nth-child(1) {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+  filter: blur(2px);
+  border-bottom: 1px solid black;
+}
+
+.cloud :nth-child(2) {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-50%) scale(110%);
+  border-radius: 50%;
+  background-color: white;
+  filter: blur(2px);
+  border-bottom: 1px solid black;
+}
+
+.cloud :nth-child(3) {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-100%);
+  border-radius: 50%;
+  background-color: white;
+  filter: blur(2px);
+  border-bottom: 1px solid black;
+}
+
+.cloud :nth-child(4) {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transform: translateX(-150%);
+  border-radius: 50%;
+  background-color: white;
+  filter: blur(2px);
+  border-bottom: 1px solid black;
+}
+
+.cloud :nth-child(5) {
+  position: absolute;
+  width: 8%;
+  height: 100%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: white;
+  filter: blur(5px);
+}
