@@ -1,0 +1,25 @@
+@import "house.scss";
+@import "balloon.scss";
+@import "cloud.scss";
+
+$black: #0b1110;
+$red: #a61502;
+$yellow: #ffc501;
+$gray800: #2d272e;
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  perspective: 300px;
+  background-image: linear-gradient(#bfe7fd, #01bbf7);
+}
