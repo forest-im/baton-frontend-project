@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-standard",
+    "stylelint-selector-bem-pattern"
+  ],
+  "rules": {
+    "indentation": 2,
+    "selector-class-pattern": [
+      "^([a-zA-Z0-9\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF_-]*)__([a-zA-Z0-9\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF_-]*)$",
+      {
+        "message": "BEM 클래스 이름을 사용하세요. (예: block__element-modifier)"
+      }
+    ]
+  }
+}
