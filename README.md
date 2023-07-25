@@ -74,9 +74,9 @@ export const balloonShapes = ["basic", "heart", "bear"];
 
 ## JavaScript 인터랙션 추가
 
-### createBalloonElement 유틸 함수 제작
+### createBalloonElement 함수 제작
 
-- 풍선 html element를 제작하는 유틸 함수를 제작했습니다. 해당 함수를 통해 랜덤 속성을 설정해 풍선 element를 만들 수 있습니다.
+- 풍선 html element를 제작하는 함수를 제작했습니다. 해당 함수를 통해 랜덤 속성을 설정해 풍선 element를 만들 수 있습니다.
 
 ```js
 for (let i = 0; i < 30; i++) {
