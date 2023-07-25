@@ -1,4 +1,4 @@
-import { createBalloonElement } from "./createBalloonElement.js";
+import { createBalloonElement } from "./service/createBalloonElement.js";
 
 const container = document.querySelector(".container");
 const house = document.querySelector(".house");

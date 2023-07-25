@@ -1,4 +1,4 @@
-import { makeRandomNum } from "./utils/makeRandomNum.js";
+import { makeRandomNum } from "../utils/makeRandomNum.js";
 import {
   balloonColors,
   balloonSizes,
